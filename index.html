@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Player Setup -->
+    <div id="player-setup">
+        <input type="text" id="player1" placeholder="Player 1 Name">
+        <input type="text" id="player2" placeholder="Player 2 Name">
+        <button id="startBtn">Start Game</button>
+    </div>
+
+    <!-- Current Turn -->
+    <h2 id="status">Start the game</h2>
+
+    <!-- Game Board -->
+    <div id="gameboard">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+    </div>
+
+    <!-- Winner / Tie Message -->
+    <h2 id="result"></h2>
+
+    <!-- Restart -->
+    <button id="restartBtn">Restart Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
