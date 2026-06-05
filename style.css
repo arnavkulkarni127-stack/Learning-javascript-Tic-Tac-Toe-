@@ -1,0 +1,12 @@
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 5px;
+    width: fit-content;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
